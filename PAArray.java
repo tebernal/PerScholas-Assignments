@@ -63,6 +63,18 @@ public class PAArray {
             if (i != 2)
                 System.out.print(midArray[i] + "  ");
 
+
+        //Task 8
+
+        String fruit [] = {"Strawberry","Blueberries", "Apple", "Grapes", "Watermelon"};
+            int swapIndex0 = 0;
+            int swapIndex2 = 2;
+            String temp = fruit[swapIndex0];
+            fruit [swapIndex0]  = fruit [swapIndex2];
+            fruit[swapIndex2] = temp;
+        System.out.println(Arrays.toString(f));
+
+
     }
 
 }
